@@ -11,6 +11,9 @@ class ServerBootstrap {
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(morgan("dev"));
     this.app.use(cors());
+    this.app.get("/api/hello", (req, res) => {
+      res.status(200).json({ message: "open commerce" });
+    });
     this.listen();
   }
 
