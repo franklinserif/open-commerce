@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "start": "tsc && node ./dist/server.js",
-    "dev": ""
+    "dev": "tsc && concurrently \"tsc -w \" \"nodemon dist/server.js\""
   },
   "dependencies": {
     "class-validator": "^0.14.0",
