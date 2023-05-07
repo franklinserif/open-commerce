@@ -1,4 +1,4 @@
-# Open-commerce API E-Commerce con Node.js, TypeScript, Express y Docker
+# Open-commerce
 
 Este proyecto es una API RESTful para un sistema de e-commerce. La API permite registrar productos, gestionar ventas y realizar compras.
 
