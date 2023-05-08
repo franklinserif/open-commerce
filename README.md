@@ -48,6 +48,8 @@ levanta el servidor
 
 ### En progreso
 
+- [ ] Routes
+
 ### Pendiente / Mejoras futuras
 
 - [] Crear venta
